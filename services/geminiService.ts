@@ -4,7 +4,7 @@ import { GoogleGenAI } from "@google/genai";
 export const generateStudyNotes = async (courseTitle: string, unitTitle: string, content: string) => {
   try {
     // Initializing GoogleGenAI with the required format using the API key directly from environment variables
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'FAKE_API_KEY_FOR_DEVELOPMENT' });
     
     // Using gemini-3-pro-preview for complex STEM-related tasks as per guidelines
     const response = await ai.models.generateContent({
