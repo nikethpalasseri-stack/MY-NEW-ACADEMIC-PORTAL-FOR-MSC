@@ -1,0 +1,7 @@
+{
+  "name": "MSc Chemistry Hub",
+  "description": "A comprehensive, interactive study portal for the MSc Chemistry curriculum 2025, featuring semester-wise navigation, detailed unit breakdowns, and AI-powered exam notes for every topic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
