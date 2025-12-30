@@ -58,8 +58,8 @@ const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-[2rem] bg-rose-600 text-white shadow-2xl shadow-rose-900/40 mb-6 transform hover:rotate-6 transition-transform">
             <GraduationCap className="w-10 h-10" />
           </div>
-          <h1 className="text-4xl font-black text-white tracking-tighter uppercase leading-tight">
-            MSc Chemistry <br /><span className="text-rose-600">Academic Portal</span>
+          <h1 className="text-3xl font-black text-white tracking-tighter uppercase leading-tight">
+            Personal Academic <br /><span className="text-rose-600">Portal for Niketh P</span>
           </h1>
           <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.4em] mt-4">Amrita Vishwa Vidyapeetham</p>
         </div>
